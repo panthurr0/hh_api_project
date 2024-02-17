@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hh-api-project"
+version = "0.1.0"
+description = ""
+authors = ["panthurr0 <olapopaola@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
